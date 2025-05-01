@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nocne Granie Łódź – Turniej Piłkarski pod Balonem</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Czcionki -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Nawigacja -->
+  <nav class="navbar">
+    <div class="logo-nav">
+      <img src="images/logo.png" alt="Logo" />
+      <span>Nocne Granie</span>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero">Start</a></li>
+      <li><a href="#o-wydarzeniu">O wydarzeniu</a></li>
+      <li><a href="#harmonogram">Harmonogram</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#partnerzy">Partnerzy</a></li>
+      <li><a href="#regulamin">Regulamin</a></li>
+      <li><a href="#mapa">Lokalizacja</a></li>
+      <li><a href="#kontakt">Zgłoszenia</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero">
+    <h1>Nocne Granie Łódź</h1>
+    <a href="#kontakt" class="cta-button">Zapisz drużynę</a>
+  </header>
+
+  <!-- O wydarzeniu -->
+  <section id="o-wydarzeniu">
+    <h2>O wydarzeniu</h2>
+    <div class="o-wydarzeniu-wrapper">
+      <img src="images/balon.jpg" alt="Rozgrywki pod balonem" class="o-wydarzeniu-img" />
+      <div class="o-wydarzeniu-text">
+        <p><i class="fa-solid fa-clock"></i><strong> Nocne Granie </strong> to turniej piłkarski pod balonem w <em>Sawo Gruz Arena</em>.</p>
+        <p><i class="fa-solid fa-futbol"></i> Rywalizacja odbywa się w piątki – wieczorami, niezależnie od pogody.</p>
+        <p><i class="fa-solid fa-trophy"></i> Gwarantujemy min. 8 meczów i finał dla najlepszych!</p>
+      </div>
+    </div>
+    <div class="statystyki">
+      <div><h3>5+</h3><p>Edycji</p></div>
+      <div><h3>60+</h3><p>Drużyn</p></div>
+      <div><h3>600+</h3><p>Bramki</p></div>
+    </div>
+  </section>
+
+  <!-- Harmonogram -->
+  <section id="harmonogram">
+    <h2>Harmonogram</h2>
+    <div class="harmonogram-wrapper">
+      <div class="harmonogram-box"><i class="fa-regular fa-calendar"></i><h3>Każdy piątek</h3><p>Od stycznia do marca i od września do grudnia.</p></div>
+      <div class="harmonogram-box"><i class="fa-solid fa-clock"></i><h3>20:00 – 01:00</h3><p>Rozgrywki nocne z oświetleniem.</p></div>
+      <div class="harmonogram-box"><i class="fa-solid fa-location-dot"></i><h3>Sawo Gruz Arena</h3><p>Ul. Odrowąża 1, Łódź</p></div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="images/mecz1.jpg" alt="Mecz 1">
+      <img src="images/mecz2.jpg" alt="Mecz 2">
+      <img src="images/mecz3.jpg" alt="Mecz 3">
+      <img src="images/mecz4.jpg" alt="Mecz 4">
+      <img src="images/mecz3.jpg" alt="Mecz 3 – ponownie">
+      <img src="images/mecz4.jpg" alt="Mecz 4 – ponownie">
+    </div>
+  </section>
+
+  <!-- Partnerzy -->
+  <section id="partnerzy">
+    <h2>Partnerzy</h2>
+    <div class="partnerzy-wrapper">
+      <div class="partner">
+        <img src="images/partner1.png" alt="Playarena" />
+        <a href="https://playarena.pl" target="_blank" rel="noopener noreferrer">
+          <span class="arrow">↑</span>
+          Playarena
+        </a>
+      </div>
+      <div class="partner">
+        <img src="images/partner2.png" alt="Sawo Gruz Arena" />
+        <a href="https://www.instagram.com/sawogruzarena" target="_blank" rel="noopener noreferrer">
+          <span class="arrow">↑</span>
+          Sawo Gruz Arena
+        </a>
+      </div>
+      <div class="partner">
+        <img src="images/partner3.png" alt="Liga Fanów Łódź" />
+        <a href="https://ligafanow.pl" target="_blank" rel="noopener noreferrer">
+          <span class="arrow">↑</span>
+          Liga Fanów Łódź
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regulamin -->
+  <section id="regulamin">
+    <h2>Regulamin</h2>
+    <div class="regulamin-content">
+      <i class="fa-solid fa-file-pdf"></i>
+      <p>
+        Pobierz pełny regulamin turnieju:
+        <br />
+        <a href="pdfs/regulamin.pdf" target="_blank" rel="noopener noreferrer">Kliknij tutaj (PDF)</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Lokalizacja -->
+  <section id="mapa">
+    <h2>Lokalizacja</h2>
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.144417334198!2d19.504965!3d51.768739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34f87023e64d%3A0x87617fdaecae9024!2sSawo%20Gruz%20Arena!5e0!3m2!1spl!2spl!4v1680000000000!5m2!1spl!2spl"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+      <p><i class="fa-solid fa-location-dot"></i> Ul. Odrowąża 1, Łódź – Sawo Gruz Arena</p>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt">
+    <h2>Zgłoś swoją drużynę</h2>
+    <p>Wypełnij poniższy formularz, aby zapisać się do rozgrywek:</p>
+    <div class="formularz-wrapper">
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfEXAMPLEFORM/viewform?embedded=true" 
+        width="100%" 
+        height="600"
+        marginheight="0" 
+        marginwidth="0">
+        Ładowanie…
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Stopka -->
+  <footer>
+    <p>© 2025 Nocne Granie Łódź</p>
+  </footer>
+
+  <!-- Skrypty -->
+  <script src="js/script.js"></script>
+</body>
+</html>
